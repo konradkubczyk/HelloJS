@@ -6,8 +6,8 @@ function getRandomInteger(min, max) {
 
 let array = [];
 
-let xDimension = getRandomInteger(2, 10);
-let yDimension = getRandomInteger(2, 10);
+let xDimension = getRandomInteger(2, 5);
+let yDimension = getRandomInteger(2, 5);
 
 for (let i = 0; i < xDimension; i++) {
     array[i] = [];
